@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Beer 000!"
+date:   2018-07-11 15:52:59 -0300
+permalink: /beer/000
+categories: jekyll update
+---
+OK...Ainda vou trabalhar nos layouts. O layout padrão é o Post mas podemos fazer um específico pra cerveja.
+O "nome" pode ir no título. Aqui no começo podemos seguir com uma descrição. Depois Estilo (BJCP/BA), IBU e Álcool.
+
+Estilo: IPA
+IBU: 66,6
