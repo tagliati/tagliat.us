@@ -1,3 +1,5 @@
+new Date().toLocaleString('pt-BR', { timeZone: 'America/Sao_Paulo' });
+
 var myVar = setInterval(function() {
   myTimer();
 }, 1000);
