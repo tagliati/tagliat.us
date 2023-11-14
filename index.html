@@ -9,7 +9,7 @@
             bottom: 3px;
           }
           input[type="radio"] {
-            visibility: hidden;
+            opacity: 0;
           }
           label{
             display: inline-block;
@@ -19,9 +19,6 @@
           }
           input[type="radio"]:checked+label {
             border: solid 5px red;
-          }
-         label:focus {
-           border-color: green !important;
           }
         </style>
   </head>
@@ -34,7 +31,7 @@
     text-align: center;
 "></p>
     <div id="key"></div>
-    <input type="radio" name="gaga" id="wash" />
+    <input type="radio" checked name="gaga" id="wash" />
     <label for="wash"><img src="washing-machine.png" alt=""></label>
     <input type="radio" name="gaga" id="moafood" />
     <label for="moafood"><img src="dog-food.png" alt=""></label>
