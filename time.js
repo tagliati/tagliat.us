@@ -1,6 +1,6 @@
 var timeCop = setInterval(function() {
   myTimer();
-}, 60000);
+}, 1000);
 const zeroPad = (num, places) => String(num).padStart(places, '0')
 function myTimer() {
   var d = new Date();
